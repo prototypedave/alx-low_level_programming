@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE make main.o
+make main.o
