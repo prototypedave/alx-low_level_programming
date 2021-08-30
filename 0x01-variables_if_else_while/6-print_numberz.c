@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
@@ -10,11 +8,9 @@
  */
 int main(void)
 {
-int n = 0;
-do {
-printf("%d", n);
-n++;
-} while (n < 10);
-printf("\n");
+int x;
+for (x = '0'; x <= '9'; x++)
+putchar(x);
+putchar('\n');
 return (0);
 }
