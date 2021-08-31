@@ -1,4 +1,4 @@
-#include "1-alphabet.c"
+#include "1-main.h"
 
 /**
  * main - check the code for ALX School students.

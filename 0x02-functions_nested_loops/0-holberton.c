@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *main- print Holberton
  *
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-char *c = "Holberton";
+char *c = "_putchar";
 int i;
 for (i = 0; i < 9; i++)
 {
