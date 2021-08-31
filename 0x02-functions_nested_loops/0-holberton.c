@@ -2,13 +2,13 @@
 /**
  *main- print Holberton
  *
- *Return:0 Always (Success)
+ *Return: Always 0
  */
 int main(void)
 {
-char c[10] = "Holberton";
+char *c = "Holberton";
 int i;
-for (i = 0; i < 10; i++)
+for (i = 0; i < 9; i++)
 {
 _putchar(c[i]);
 }
