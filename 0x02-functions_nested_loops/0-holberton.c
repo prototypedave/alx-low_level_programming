@@ -2,11 +2,11 @@
 /**
  *main- print Holberton
  *
- *Return: always (0)
+ *Return:0 Always (Success)
  */
 int main(void)
 {
-char *c = "Holberton";
+char c[10] = "Holberton";
 int i;
 for (i = 0; i < 10; i++)
 {
