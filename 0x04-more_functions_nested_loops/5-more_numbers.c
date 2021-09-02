@@ -9,8 +9,8 @@ void print_most_numbers(void)
 {
 char x = 48;
  int n = 0;
- do
-   {
+do
+{
 while (x < 62)
 {
 _putchar(x);
