@@ -1,25 +1,23 @@
-#include <unistd.h>
+#include "main.h"
+#include <string.h>
+#include <stdio.h>
 /**
- * _puts - writes a script to stdout up to but not including the null character
- * @str: this is the string to be written
+ * _puts- prints a string
+ * str: parameter
  *
- * Return: on success 1.
- * on error, EOF
+ * Return: 0
  */
 void _puts(char *str)
 {
 int i = 0;
-while(str[i])  //standard c idiom for looping through a null-terminated string
+int len = strlen(str);
+while (str[i] < len)
 {
-if( putchar(str[i]) == EOF)  //if we got the EOF value from writing the char
-{ 
-return EOF;
+if (str[i] == '\0')
+{
+putchar('\n');
 }
+putchar(str[i]);
 i++;
 }
-if(putchar('\n') == EOF)  //this will occur right after we quit due to the null terminated character.
-{
-return EOF;
-}
-return 1; //to meet spec.
 }
