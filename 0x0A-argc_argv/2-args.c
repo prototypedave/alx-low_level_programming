@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: prints arguments
+ * main- prints arguments
  * @argc: checks arguments in command line
  * @argv: return arguments as array
  *

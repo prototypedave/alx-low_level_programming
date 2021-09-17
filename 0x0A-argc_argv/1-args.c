@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main- prints number of argumeents
- * @aŕgc: checks for arguments
+ * @argc: checks for arguments
  * @argv: array of args
  *
  * Return: always 0
