@@ -71,7 +71,6 @@ for (j = 0; av[i][j]; j++)
 if (av[i][j] < '0' || av[i][j] > '9')
 return (1);
 }
-}
 return (0);
 }
 /**
@@ -84,7 +83,7 @@ return (0);
 void init(char *str, int l)
 {
 int j;
-for (j = 0; j < l; i++)
+for (j = 0; j < l; j++)
 str[j] = '0';
 str[j] = '\0';
 }
@@ -120,7 +119,7 @@ _putchar(e[ti]);
 exit(98);
 }
 init(a, ln - 1);
-for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
+for (ti = l2 - 1, j = 0; ti >= 0; ti--, i++)
 {
 t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - k);
 if (t == NULL)
