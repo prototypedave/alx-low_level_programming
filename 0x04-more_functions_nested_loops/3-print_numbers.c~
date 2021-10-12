@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ *print_numbers- numbers base10
+  *
+ *Return: void
+ */
+void print_numbers(void)
+{
+  int x = 0;
+  while (x < 10)
+{
+_putchar(x);
+ x++;
+}
+_putchar('\n');
+}
