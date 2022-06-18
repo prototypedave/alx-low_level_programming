@@ -5,7 +5,6 @@
 
 /**
 * struct listint_s - singly linked list
-* 
 * @n: interger
 * @index: Index of the node in the list
 * @next: pointer to the next node
